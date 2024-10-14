@@ -1,0 +1,18 @@
+"Passo a passo da criação da rede social"
+_criando o ambiente virtual venv dentro da pasta do projeto vamos usar o comando no terminal:
+python -m venv NomeDoAmbiente
+venv\Scripts\activate  
+
+_criando o repositorio dentro da pasta principal da rede social
+git init
+git add .
+git commit - m "criando a rede social"
+git branch -M main #trocando o nome da branch principal
+git remote add origin https://github.com/maxcoalastudio/RepositorioCriadoNoGit.git
+git push -u origin main # empurrando conteudo para a pasta de origem
+
+git add .
+git commit - m "primeiro commit"
+git push
+
+_tudo isso pronto podemos começar a trabalhar!
